@@ -101,3 +101,22 @@ button {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 }
+/* Add this at the bottom — mobile responsive */
+@media only screen and (max-width: 600px) {
+  .calculator {
+    width: 90vw;
+    height: auto;
+    padding: 20px;
+    margin: 20px auto;
+  }
+
+  .calculator-screen {
+    font-size: 2rem;
+    padding: 10px;
+  }
+
+  .calculator-keys button {
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+}
